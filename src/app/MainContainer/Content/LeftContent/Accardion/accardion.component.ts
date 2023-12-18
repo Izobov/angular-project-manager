@@ -83,7 +83,7 @@ export class AccordionComponent implements OnInit {
   }
 
   ngOnDestroy() {
-    this.accordion && this.accordion.destructor();
-    this.chart && this.chart.destructor();
+    this.accordion?.destructor();
+    this.chart?.destructor();
   }
 }

@@ -5,4 +5,5 @@ app-content {
   overflow: auto;
   padding: 12px;
   gap: 12px;
+  background-color: var(--dhx-background-secondary);
 }

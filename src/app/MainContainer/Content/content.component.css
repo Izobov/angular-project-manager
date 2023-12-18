@@ -3,7 +3,7 @@
   border: var(--dhx-border);
 }
 
-app-left-content {
+app-left-content, app-right-content {
   display: flex;
   height: 100%; 
   max-width: 800px;
